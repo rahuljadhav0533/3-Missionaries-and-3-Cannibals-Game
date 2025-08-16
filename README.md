@@ -13,7 +13,9 @@ Boat: 🛶
 River: 🌊
 
 User Input: You are prompted to enter the number of missionaries and cannibals you want to put on the boat for the next trip.
+
 State Update: The script updates the counts of people on both banks based on your input and moves the boat to the opposite side.
+
 Win/Lose Conditions: After every move, the script checks for two conditions:
 
 You Lose ☠️: If on either bank, the number of cannibals outnumbers the number of missionaries (and there's at least one missionary present).
