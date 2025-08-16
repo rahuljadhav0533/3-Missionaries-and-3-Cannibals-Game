@@ -8,8 +8,11 @@ The script keeps track of the number of missionaries and cannibals on each side 
 Visual State: The game's current state is displayed using emojis, showing who is on which bank and where the boat is.
 
 Missionary: 💂
+
 Cannibal: 👹
+
 Boat: 🛶
+
 River: 🌊
 
 User Input: You are prompted to enter the number of missionaries and cannibals you want to put on the boat for the next trip.
@@ -26,5 +29,7 @@ Game Rules Enforced by the Code:
 The code ensures you follow the puzzle's rules by validating your moves:
 
 The boat can only carry a maximum of two people.
+
 The boat cannot be empty when it crosses the river.
+
 You cannot move more missionaries or cannibals than are currently on the bank where the boat is located.
